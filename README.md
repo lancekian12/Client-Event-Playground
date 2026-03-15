@@ -1,16 +1,73 @@
-# React + Vite
+# 🎯 Event Playground - React + Tailwind
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fun and interactive **React** project built with **Tailwind CSS** to explore and experiment with different **DOM events**. Perfect for learning how to handle user interactions in a modern web app!  
 
-Currently, two official plugins are available:
+## ⚡ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Mouse Events** 🖱️  
+  Handle clicks, double-clicks, hover, and drag events.  
 
-## React Compiler
+- **Keyboard Events** ⌨️  
+  Detect key presses, key downs, and key ups.  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Form Input Events** 📝  
+  Work with text inputs, checkboxes, radio buttons, and form submissions.  
 
-## Expanding the ESLint configuration
+- **Window Events** 🌐  
+  Respond to resize, scroll, and other global events.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **jQuery Events** 💫  
+  Bonus: Learn how jQuery can still be used for DOM manipulation and event handling.  
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/) – Frontend library for building interactive UI  
+- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework  
+- [jQuery](https://jquery.com/) – For demonstration of classic DOM event handling  
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/event-playground.git
+cd event-playground
+```
+
+### 2. Install dependencies
+```
+npm install
+```
+### 3. Run the development server
+```
+npm run dev
+```
+
+## 🎨 Usage
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
+
+- Hover, click, or drag on elements to see **mouse events** in action.
+- Type in inputs to trigger **keyboard and form events**.
+- Resize or scroll the window to see **window events**.
+- Explore some **jQuery event examples** integrated in the app.
+
+## 📚 Learning Outcomes
+
+By using this project, you will learn how to:
+
+- Handle **user interactions** in React
+- Combine **Tailwind CSS** styling with event-driven behavior
+- Integrate **classic jQuery** for DOM manipulation alongside React
+- Manage both **component-level and global events** effectively
+
+## 💡 Future Improvements
+
+- Add **drag-and-drop components**
+- Include **keyboard shortcuts** for actions
+- Add **custom animations** for events
+
+## 📌 License
+
+This project is open-source under the [MIT License](LICENSE).
+
